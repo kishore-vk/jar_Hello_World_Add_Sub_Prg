@@ -11,10 +11,12 @@ import org.junit.runners.Parameterized.Parameters;
 
 public class MainTest {
 
-	 @ Test
+	//Junit Test for Hello World
+	@ Test
 	public void test() {
 		assertEquals("Hello! Have a great weekend", Main.printOne());
 		
+		//Junit Test case for Addition
 		@RunWith(Parameterized.class) class JunitAdditionTest {
 
 			private int expected;

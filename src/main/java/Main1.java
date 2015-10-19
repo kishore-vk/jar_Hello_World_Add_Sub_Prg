@@ -2,6 +2,7 @@ package demo.helloworld;
 
 public class Main1 extends Main {
 	
+	//Addittion Function
 	public static int add() {
 
 		System.out.print("Addition: Enter first number: ");
